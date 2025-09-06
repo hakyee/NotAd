@@ -25,7 +25,9 @@ public class LevelGenerator : MonoBehaviour
     void SpawnStartingChunks()
     {
         for (int i = 0; i < startChunksAmount; i++)
+        {
             SpawnChunk();
+        }
     }
 
     void MoveChunks()
